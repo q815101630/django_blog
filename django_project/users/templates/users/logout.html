@@ -1,0 +1,6 @@
+{% extends "django_blog/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<h2>You have been logged out</h2>>
+    <small ><a href="{% url 'login' %}">Sign in</a></small>
+{% endblock content %}
